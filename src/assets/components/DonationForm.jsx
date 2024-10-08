@@ -27,7 +27,7 @@ const navigate=useNavigate();
     setFormData({ ...formData, [name]: value });
   };
   const handleDonation=()=>{
-    navigate('/viewdonations')
+    navigate('/donationlist')
   }
 
   const handleSubmit = (e) => {

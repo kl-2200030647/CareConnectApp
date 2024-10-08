@@ -22,6 +22,7 @@ import RequestDonation from "./assets/components/RequestDonation.jsx";
 import RequestHistory from "./assets/components/RequestHistory.jsx";
 import ContactAdmin from "./assets/components/ContactAdmin.jsx";
 import ContactAdmin2 from "./assets/components/ContactAdmin2.jsx";
+import DonationList2 from "./assets/components/DonationList2.jsx";
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
         <Route path="/requestdonation" element={<RequestDonation/>}/>
         <Route path="/contactadmin" element={<ContactAdmin/>}/>
         <Route path="/contactadmin2" element={<ContactAdmin2/>}/>
+        <Route path="/donationlist" element={<DonationList2/>}/>
       </Routes>
     </Router>
   );
